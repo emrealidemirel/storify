@@ -1,6 +1,6 @@
 # Yayın hazırlığının durumu
 
-Son durum: 26 Ekim 2026. Bu belge, 24 Ekim denetiminden sonra yapılan düzeltmeleri ve henüz tamamlanmamış yayın adımlarını kaydeder.
+Kod/yayın hazırlığı durumu: 26 Ekim 2026. 1 Kasım yeniden doğrulaması ve repo sunum güncellemeleri için [son proje incelemesine](project_review_2026-11-01.md) bakın. Bu belge, 24 Ekim denetiminden sonra yapılan düzeltmeleri ve henüz tamamlanmamış yayın adımlarını kaydeder.
 
 ## Tamamlanan kod değişiklikleri
 
