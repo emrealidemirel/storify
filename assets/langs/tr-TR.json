@@ -1,6 +1,6 @@
 {
   "app_title": "Storify",
-  "story_intro_text": "Kendi hikayeni seç, kaderini yaz!",
+  "story_intro_text": "Bir tür ve kahraman seç, ardından kararlarınla hikâyeye yön ver.",
   "start_story_button": "Hikayeye Başla",
   "continue_story_button": "Hikayeye Devam Et",
   "story_error_text": "Bir şeyler ters gitti!",
@@ -98,10 +98,7 @@
   "auth_error_network": "Bağlantı hatası oluştu. İnternet bağlantınızı kontrol edip tekrar deneyin.",
   "auth_error_signout_failed": "Oturum kapatılamadı. Lütfen tekrar deneyin.",
   "auth_error_general": "Beklenmeyen bir hata oluştu.",
-  "home_eyebrow": "HER SEÇİM YENİ BİR DÜNYA",
   "home_title": "Hikâyenin kahramanı sensin.",
-  "home_art_label": "HAYAL ET. SEÇ. KEŞFET.",
-  "home_art_title": "Bir sayfa aç.\nBir dünyayı değiştir.",
   "home_note": "Senin seçimlerin. Sana ait bir macera.",
   "selection_eyebrow": "YENİ BİR HİKÂYE",
   "selection_title": "Dünyanı şekillendir.",

@@ -16,7 +16,7 @@ Storify is an interactive storytelling app for Android and iOS. Choose a genre a
 
 ## Screenshots
 
-App screens rendered from the production Flutter widgets with bundled guest stories. English and Turkish captures are available; no live account or AI request is used.
+App screens with sample stories:
 
 <img src="docs/store/screenshots/en-home.png" width="250" alt="Storify home screen in English"> <img src="docs/store/screenshots/en-selection.png" width="250" alt="Storify genre and protagonist selection in English"> <img src="docs/store/screenshots/en-story.png" width="250" alt="Storify guest story with branching choices in English">
 
@@ -27,19 +27,17 @@ App screens rendered from the production Flutter widgets with bundled guest stor
 
 </details>
 
-See the [capture guide](docs/store/screenshots/README.md) to reproduce the images.
-
 ## Data and privacy
 
 The latest AI story and preferences are stored on your device; stories do not sync between devices. Firebase handles authentication, profile images, and submitted content reports. After permission is granted, AI generation sends story context and choices to OpenAI. You can withdraw this permission in the app. Storify contains no ads, purchases, or usage analytics integrations.
 
-Account deletion reauthenticates the user and removes associated Storage files and local story/consent data before deleting the authentication account. Live provider configuration and Storage permissions still need release validation.
-
-The app is **in development and not ready for public distribution**. AI generation and moderation currently use a development key bundled in the app; these requests must move to an authenticated backend before release. Signing, public privacy/account-deletion pages, and real-device validation are also pending.
+Account deletion requires reauthentication and removes associated files, local story data, and the account.
 
 [Data handling](docs/DATA_AND_PRIVACY.md) · [Release checklist](docs/release_preparation.md)
 
 ## Development
+
+The app is in development. Before distribution, AI requests must move from the client-side development key to an authenticated backend. Signing, public privacy and account-deletion pages, and physical-device checks are also pending.
 
 Storify is built with Flutter. It uses Bloc/Cubit for state management, SharedPreferences for local story progress and preferences, and Firebase for authentication and file storage. Translations are managed with `easy_localization`.
 
@@ -60,10 +58,12 @@ flutter analyze --no-pub
 flutter test --no-pub
 ```
 
-See the [development guide](docs/DEVELOPMENT.md) for configuration, architecture, Storage-rule tests, and build commands. The [latest project review](docs/project_review_2026-11-01.md) records verified checks and remaining work.
+See the [development guide](docs/DEVELOPMENT.md) for configuration, architecture, Storage-rule tests, and build commands.
 
 ## Support
 
-Developed by [Emre Ali Demirel](https://github.com/emrealidemirel), also the developer of [Shien](https://github.com/emrealidemirel/shien).
+Developed by [Emre Ali Demirel](https://github.com/emrealidemirel).
+
+Other projects: [Shien](https://github.com/emrealidemirel/shien) · [BugPilot AI](https://github.com/emrealidemirel/bugpilot-ai)
 
 For questions and feedback: [emrealidemirel@gmail.com](mailto:emrealidemirel@gmail.com)

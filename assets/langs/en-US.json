@@ -1,6 +1,6 @@
 {
   "app_title": "Storify",
-  "story_intro_text": "Choose your story, write your fate!",
+  "story_intro_text": "Choose a genre and a protagonist, then shape the story with your decisions.",
   "start_story_button": "Start The Story",
   "continue_story_button": "Continue the Story",
   "story_error_text": "Something went wrong!",
@@ -98,10 +98,7 @@
   "auth_error_network": "A network error occurred. Check your connection and try again.",
   "auth_error_signout_failed": "Could not sign out. Please try again.",
   "auth_error_general": "An unexpected error occurred.",
-  "home_eyebrow": "EVERY CHOICE, A NEW WORLD",
   "home_title": "Be the hero of your story.",
-  "home_art_label": "IMAGINE. CHOOSE. EXPLORE.",
-  "home_art_title": "Open a page.\nChange a world.",
   "home_note": "Your choices. Your own adventure.",
   "selection_eyebrow": "A NEW STORY",
   "selection_title": "Shape your world.",

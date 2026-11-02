@@ -11,7 +11,6 @@ import 'package:flutter_story_app/pages/theme_selection_page.dart';
 import 'package:flutter_story_app/widgets/app_scaffold.dart';
 import 'package:flutter_story_app/widgets/primary_button.dart';
 import 'package:flutter_story_app/widgets/auth_guard.dart';
-import 'package:flutter_story_app/theme/app_theme.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -62,75 +61,19 @@ class _HomePageState extends State<HomePage> {
         final wide = constraints.maxWidth >= 700;
         final artwork = ClipRRect(
           borderRadius: BorderRadius.circular(28),
-          child: Stack(
-            alignment: Alignment.bottomLeft,
-            children: [
-              Image.asset(
-                'assets/images/story-intro-gold.png',
-                width: double.infinity,
-                height:
-                    wide
-                        ? 540
-                        : (constraints.maxHeight * .45).clamp(220.0, 400.0),
-                fit: BoxFit.cover,
-                alignment: const Alignment(0, .25),
-              ),
-              Positioned.fill(
-                child: DecoratedBox(
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                      colors: [
-                        Colors.transparent,
-                        AppTheme.espresso.withValues(alpha: .85),
-                      ],
-                      stops: const [.45, 1],
-                    ),
-                  ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(24),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'home_art_label'.tr(),
-                      style: const TextStyle(
-                        color: AppTheme.gold,
-                        fontSize: 11,
-                        letterSpacing: 2,
-                        fontWeight: FontWeight.w800,
-                      ),
-                    ),
-                    const SizedBox(height: 8),
-                    Text(
-                      'home_art_title'.tr(),
-                      style: Theme.of(
-                        context,
-                      ).textTheme.headlineSmall?.copyWith(color: Colors.white),
-                    ),
-                  ],
-                ),
-              ),
-            ],
+          child: Image.asset(
+            'assets/images/story-intro-gold.png',
+            width: double.infinity,
+            height:
+                wide ? 540 : (constraints.maxHeight * .45).clamp(220.0, 400.0),
+            fit: BoxFit.cover,
+            alignment: const Alignment(0, .25),
           ),
         );
         final content = Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 8),
-            Text(
-              'home_eyebrow'.tr(),
-              style: TextStyle(
-                color: Theme.of(context).colorScheme.secondary,
-                fontSize: 11,
-                letterSpacing: 2,
-                fontWeight: FontWeight.w800,
-              ),
-            ),
-            const SizedBox(height: 12),
             Text(
               'home_title'.tr(),
               style: Theme.of(context).textTheme.headlineLarge,
@@ -176,14 +119,6 @@ class _HomePageState extends State<HomePage> {
                   },
                 );
               },
-            ),
-            const SizedBox(height: 10),
-            Center(
-              child: Text(
-                'home_note'.tr(),
-                textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.bodySmall,
-              ),
             ),
           ],
         );
