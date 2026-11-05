@@ -3,10 +3,10 @@ import 'package:chat_gpt_sdk/chat_gpt_sdk.dart';
 // ignore: implementation_imports
 import 'package:chat_gpt_sdk/src/model/error/openai_error.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_story_app/blocs/story/story_cubit.dart';
-import 'package:flutter_story_app/blocs/story/story_state.dart';
-import 'package:flutter_story_app/models/story_model.dart';
-import 'package:flutter_story_app/repositories/story_repository.dart';
+import 'package:storify/blocs/story/story_cubit.dart';
+import 'package:storify/blocs/story/story_state.dart';
+import 'package:storify/models/story_model.dart';
+import 'package:storify/repositories/story_repository.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

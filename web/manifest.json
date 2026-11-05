@@ -1,11 +1,11 @@
 {
-    "name": "flutter_story_app",
-    "short_name": "flutter_story_app",
+    "name": "storify",
+    "short_name": "storify",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#302019",
     "theme_color": "#302019",
-    "description": "A new Flutter project.",
+    "description": "Interactive stories in Turkish and English.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

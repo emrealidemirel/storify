@@ -1,13 +1,13 @@
-import 'package:flutter_story_app/widgets/brand_wordmark.dart';
+import 'package:storify/widgets/brand_wordmark.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_story_app/blocs/auth/auth_cubit.dart';
-import 'package:flutter_story_app/blocs/auth/auth_state.dart';
-import 'package:flutter_story_app/blocs/story/story_cubit.dart';
-import 'package:flutter_story_app/constants/routes.dart';
+import 'package:storify/blocs/auth/auth_cubit.dart';
+import 'package:storify/blocs/auth/auth_state.dart';
+import 'package:storify/blocs/story/story_cubit.dart';
+import 'package:storify/constants/routes.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter_story_app/widgets/account_widgets.dart';
-import 'package:flutter_story_app/widgets/account_preferences.dart';
+import 'package:storify/widgets/account_widgets.dart';
+import 'package:storify/widgets/account_preferences.dart';
 
 class AppDrawer extends StatelessWidget {
   const AppDrawer({super.key});

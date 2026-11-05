@@ -1,16 +1,16 @@
-import 'package:flutter_story_app/widgets/ai_consent_dialog.dart';
-import 'package:flutter_story_app/widgets/story_report_dialog.dart';
-import 'package:flutter_story_app/widgets/brand_wordmark.dart';
+import 'package:storify/widgets/ai_consent_dialog.dart';
+import 'package:storify/widgets/story_report_dialog.dart';
+import 'package:storify/widgets/brand_wordmark.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_story_app/blocs/story/story_cubit.dart';
-import 'package:flutter_story_app/blocs/story/story_state.dart';
-import 'package:flutter_story_app/constants/routes.dart';
-import 'package:flutter_story_app/widgets/choice_button.dart';
-import 'package:flutter_story_app/widgets/loading_indicator.dart';
+import 'package:storify/blocs/story/story_cubit.dart';
+import 'package:storify/blocs/story/story_state.dart';
+import 'package:storify/constants/routes.dart';
+import 'package:storify/widgets/choice_button.dart';
+import 'package:storify/widgets/loading_indicator.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:flutter_story_app/widgets/app_scaffold.dart';
+import 'package:storify/widgets/app_scaffold.dart';
 
 class StoryPage extends StatefulWidget {
   final bool continueFromLast;

@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_story_app/pages/privacy_page.dart';
-import 'package:flutter_story_app/services/preferences_service.dart';
+import 'package:storify/pages/privacy_page.dart';
+import 'package:storify/services/preferences_service.dart';
 
 Future<bool> ensureAIConsent(BuildContext context, String uid) async {
   if (await PreferencesService.hasAIConsent(uid)) return context.mounted;

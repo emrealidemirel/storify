@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_story_app/repositories/story_repository.dart';
-import 'package:flutter_story_app/services/content_safety_service.dart';
-import 'package:flutter_story_app/services/firebase_auth_service.dart';
-import 'package:flutter_story_app/services/firebase_storage_service.dart';
-import 'package:flutter_story_app/services/preferences_service.dart';
+import 'package:storify/repositories/story_repository.dart';
+import 'package:storify/services/content_safety_service.dart';
+import 'package:storify/services/firebase_auth_service.dart';
+import 'package:storify/services/firebase_storage_service.dart';
+import 'package:storify/services/preferences_service.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';

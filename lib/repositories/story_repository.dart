@@ -1,10 +1,10 @@
-import 'package:flutter_story_app/services/content_safety_service.dart';
+import 'package:storify/services/content_safety_service.dart';
 import 'dart:convert';
 
 import 'package:chat_gpt_sdk/chat_gpt_sdk.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_story_app/models/story_model.dart';
-import 'package:flutter_story_app/services/story_prompts.dart';
+import 'package:storify/models/story_model.dart';
+import 'package:storify/services/story_prompts.dart';
 
 class StoryRepository {
   final bool Function() canUseAI;

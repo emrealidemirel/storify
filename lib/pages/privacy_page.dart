@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_story_app/constants/release_config.dart';
+import 'package:storify/constants/release_config.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class PrivacyLink extends StatelessWidget {

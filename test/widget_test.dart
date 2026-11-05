@@ -2,10 +2,10 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_story_app/blocs/auth/auth_cubit.dart';
-import 'package:flutter_story_app/pages/sign_in_page.dart';
-import 'package:flutter_story_app/repositories/auth_repository.dart';
-import 'package:flutter_story_app/widgets/auth_guard.dart';
+import 'package:storify/blocs/auth/auth_cubit.dart';
+import 'package:storify/pages/sign_in_page.dart';
+import 'package:storify/repositories/auth_repository.dart';
+import 'package:storify/widgets/auth_guard.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 

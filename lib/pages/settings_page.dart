@@ -1,18 +1,18 @@
-import 'package:flutter_story_app/pages/privacy_page.dart';
-import 'package:flutter_story_app/services/preferences_service.dart';
+import 'package:storify/pages/privacy_page.dart';
+import 'package:storify/services/preferences_service.dart';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_story_app/blocs/auth/auth_cubit.dart';
-import 'package:flutter_story_app/blocs/auth/auth_state.dart';
-import 'package:flutter_story_app/constants/routes.dart';
-import 'package:flutter_story_app/widgets/custom_dialog.dart';
-import 'package:flutter_story_app/widgets/password_text_form_field.dart';
+import 'package:storify/blocs/auth/auth_cubit.dart';
+import 'package:storify/blocs/auth/auth_state.dart';
+import 'package:storify/constants/routes.dart';
+import 'package:storify/widgets/custom_dialog.dart';
+import 'package:storify/widgets/password_text_form_field.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:flutter_story_app/widgets/app_scaffold.dart';
-import 'package:flutter_story_app/widgets/account_widgets.dart';
+import 'package:storify/widgets/app_scaffold.dart';
+import 'package:storify/widgets/account_widgets.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});

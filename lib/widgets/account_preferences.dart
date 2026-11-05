@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_story_app/blocs/theme/theme_cubit.dart';
-import 'package:flutter_story_app/services/preferences_service.dart';
-import 'package:flutter_story_app/widgets/account_widgets.dart';
+import 'package:storify/blocs/theme/theme_cubit.dart';
+import 'package:storify/services/preferences_service.dart';
+import 'package:storify/widgets/account_widgets.dart';
 
 class AccountPreferences extends StatelessWidget {
   const AccountPreferences({super.key});

@@ -1,8 +1,8 @@
-import 'package:flutter_story_app/widgets/brand_wordmark.dart';
+import 'package:storify/widgets/brand_wordmark.dart';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter_story_app/widgets/app_scaffold.dart';
+import 'package:storify/widgets/app_scaffold.dart';
 
 class ThemeSelectionPage extends StatefulWidget {
   final Function(String themeKey, String genderKey) onSelectionDone;

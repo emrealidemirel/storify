@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_story_app/widgets/app_drawer.dart';
+import 'package:storify/widgets/app_drawer.dart';
 
 class AppScaffold extends StatelessWidget {
   final String? title;

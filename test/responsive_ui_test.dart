@@ -5,8 +5,8 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_story_app/pages/theme_selection_page.dart';
-import 'package:flutter_story_app/theme/app_theme.dart';
+import 'package:storify/pages/theme_selection_page.dart';
+import 'package:storify/theme/app_theme.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

@@ -1,16 +1,16 @@
-import 'package:flutter_story_app/widgets/brand_wordmark.dart';
+import 'package:storify/widgets/brand_wordmark.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_story_app/blocs/auth/auth_cubit.dart';
-import 'package:flutter_story_app/blocs/auth/auth_state.dart';
-import 'package:flutter_story_app/blocs/story/story_cubit.dart';
-import 'package:flutter_story_app/blocs/story/story_state.dart';
-import 'package:flutter_story_app/pages/story_page.dart';
-import 'package:flutter_story_app/pages/theme_selection_page.dart';
-import 'package:flutter_story_app/widgets/app_scaffold.dart';
-import 'package:flutter_story_app/widgets/primary_button.dart';
-import 'package:flutter_story_app/widgets/auth_guard.dart';
+import 'package:storify/blocs/auth/auth_cubit.dart';
+import 'package:storify/blocs/auth/auth_state.dart';
+import 'package:storify/blocs/story/story_cubit.dart';
+import 'package:storify/blocs/story/story_state.dart';
+import 'package:storify/pages/story_page.dart';
+import 'package:storify/pages/theme_selection_page.dart';
+import 'package:storify/widgets/app_scaffold.dart';
+import 'package:storify/widgets/primary_button.dart';
+import 'package:storify/widgets/auth_guard.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

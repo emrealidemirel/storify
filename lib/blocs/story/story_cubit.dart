@@ -1,12 +1,12 @@
-import 'package:flutter_story_app/services/content_safety_service.dart';
+import 'package:storify/services/content_safety_service.dart';
 import 'package:chat_gpt_sdk/chat_gpt_sdk.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_story_app/blocs/story/story_state.dart';
-import 'package:flutter_story_app/models/story_model.dart';
-import 'package:flutter_story_app/repositories/story_repository.dart';
-import 'package:flutter_story_app/repositories/guest_story_repository.dart';
-import 'package:flutter_story_app/services/preferences_service.dart';
+import 'package:storify/blocs/story/story_state.dart';
+import 'package:storify/models/story_model.dart';
+import 'package:storify/repositories/story_repository.dart';
+import 'package:storify/repositories/guest_story_repository.dart';
+import 'package:storify/services/preferences_service.dart';
 
 class StoryCubit extends Cubit<StoryState> {
   final StoryRepository storyRepository;

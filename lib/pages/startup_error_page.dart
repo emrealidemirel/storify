@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_story_app/theme/app_theme.dart';
+import 'package:storify/theme/app_theme.dart';
 
 class StartupErrorApp extends StatefulWidget {
   final Future<void> Function() retry;

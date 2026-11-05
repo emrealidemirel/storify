@@ -1,16 +1,16 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_story_app/pages/privacy_page.dart';
-import 'package:flutter_story_app/widgets/brand_wordmark.dart';
+import 'package:storify/pages/privacy_page.dart';
+import 'package:storify/widgets/brand_wordmark.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_story_app/blocs/auth/auth_cubit.dart';
-import 'package:flutter_story_app/blocs/auth/auth_state.dart';
-import 'package:flutter_story_app/constants/routes.dart';
-import 'package:flutter_story_app/widgets/app_scaffold.dart';
-import 'package:flutter_story_app/widgets/sign_in_text_form_field.dart';
-import 'package:flutter_story_app/widgets/password_text_form_field.dart';
-import 'package:flutter_story_app/widgets/loading_indicator.dart';
+import 'package:storify/blocs/auth/auth_cubit.dart';
+import 'package:storify/blocs/auth/auth_state.dart';
+import 'package:storify/constants/routes.dart';
+import 'package:storify/widgets/app_scaffold.dart';
+import 'package:storify/widgets/sign_in_text_form_field.dart';
+import 'package:storify/widgets/password_text_form_field.dart';
+import 'package:storify/widgets/loading_indicator.dart';
 
 class SignInPage extends StatefulWidget {
   const SignInPage({super.key});

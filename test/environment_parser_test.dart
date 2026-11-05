@@ -1,6 +1,6 @@
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_story_app/repositories/story_repository.dart';
-import 'package:flutter_story_app/utils/environment_parser.dart';
+import 'package:storify/repositories/story_repository.dart';
+import 'package:storify/utils/environment_parser.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

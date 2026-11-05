@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_story_app/theme/app_theme.dart';
+import 'package:storify/theme/app_theme.dart';
 
 /// A shared avatar that also handles expired or unavailable profile URLs.
 class ProfileAvatar extends StatelessWidget {

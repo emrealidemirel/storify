@@ -76,6 +76,14 @@ docs/            Audit and release preparation notes
 
 Firebase Authentication manages accounts. Firebase Storage holds profile images and content reports. Story progress and preferences are stored locally using SharedPreferences. There is currently no server component in this repository for AI requests or billing enforcement.
 
+## Project naming
+
+The repository, checkout directory, and Dart package are named `storify`. Dart imports use `package:storify/`. Desktop executables/products and the web app metadata also use `storify`; Android and iOS display the brand name **Storify**.
+
+Firebase project IDs, buckets, native application IDs, and OAuth registrations are service identities rather than display names. Existing identifiers are preserved so the configured authentication and storage connections continue to match. Changing these requires a coordinated provider migration, not a text replacement. Historical audit documents retain the identifiers observed at the time.
+
+After moving or renaming a checkout, run `flutter clean` and `flutter pub get` to regenerate cached absolute paths. Point your editor's saved project entry at the new folder as well.
+
 ## Local development
 
 ### Requirements

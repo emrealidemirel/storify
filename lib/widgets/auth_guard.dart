@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_story_app/pages/sign_in_page.dart';
+import 'package:storify/pages/sign_in_page.dart';
 
 /// Only mounts protected content while a Firebase session exists.
 /// Anonymous Firebase users are valid sessions too.

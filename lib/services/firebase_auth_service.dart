@@ -1,8 +1,8 @@
 import 'dart:io';
-import 'package:flutter_story_app/services/firebase_storage_service.dart';
-import 'package:flutter_story_app/services/preferences_service.dart';
+import 'package:storify/services/firebase_storage_service.dart';
+import 'package:storify/services/preferences_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter_story_app/repositories/auth_repository.dart';
+import 'package:storify/repositories/auth_repository.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class FirebaseAuthService implements AuthRepository {

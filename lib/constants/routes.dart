@@ -1,10 +1,10 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_story_app/pages/home_page.dart';
-import 'package:flutter_story_app/pages/reset_password_page.dart';
-import 'package:flutter_story_app/pages/sign_in_page.dart';
-import 'package:flutter_story_app/pages/sign_up_page.dart';
-import 'package:flutter_story_app/pages/settings_page.dart';
-import 'package:flutter_story_app/widgets/auth_guard.dart';
+import 'package:storify/pages/home_page.dart';
+import 'package:storify/pages/reset_password_page.dart';
+import 'package:storify/pages/sign_in_page.dart';
+import 'package:storify/pages/sign_up_page.dart';
+import 'package:storify/pages/settings_page.dart';
+import 'package:storify/widgets/auth_guard.dart';
 
 class Routes {
   static const String language = "/language";

@@ -1,5 +1,5 @@
-import 'package:flutter_story_app/pages/startup_error_page.dart';
-import 'package:flutter_story_app/blocs/auth/auth_state.dart';
+import 'package:storify/pages/startup_error_page.dart';
+import 'package:storify/blocs/auth/auth_state.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -8,17 +8,17 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_story_app/blocs/auth/auth_cubit.dart';
-import 'package:flutter_story_app/blocs/story/story_cubit.dart';
-import 'package:flutter_story_app/blocs/theme/theme_cubit.dart';
-import 'package:flutter_story_app/blocs/theme/theme_state.dart';
-import 'package:flutter_story_app/constants/routes.dart';
-import 'package:flutter_story_app/firebase_options.dart';
-import 'package:flutter_story_app/repositories/story_repository.dart';
-import 'package:flutter_story_app/services/firebase_auth_service.dart';
-import 'package:flutter_story_app/services/preferences_service.dart';
-import 'package:flutter_story_app/theme/app_theme.dart';
-import 'package:flutter_story_app/utils/environment_parser.dart';
+import 'package:storify/blocs/auth/auth_cubit.dart';
+import 'package:storify/blocs/story/story_cubit.dart';
+import 'package:storify/blocs/theme/theme_cubit.dart';
+import 'package:storify/blocs/theme/theme_state.dart';
+import 'package:storify/constants/routes.dart';
+import 'package:storify/firebase_options.dart';
+import 'package:storify/repositories/story_repository.dart';
+import 'package:storify/services/firebase_auth_service.dart';
+import 'package:storify/services/preferences_service.dart';
+import 'package:storify/theme/app_theme.dart';
+import 'package:storify/utils/environment_parser.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 void main() async {

@@ -1,10 +1,10 @@
 import 'dart:io';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_story_app/repositories/auth_repository.dart';
+import 'package:storify/repositories/auth_repository.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'auth_state.dart';
-import 'package:flutter_story_app/utils/auth_utils.dart';
+import 'package:storify/utils/auth_utils.dart';
 
 class AuthCubit extends Cubit<AuthState> {
   final AuthRepository authRepository;
